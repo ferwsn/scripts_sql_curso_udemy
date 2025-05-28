@@ -1,1 +1,0 @@
-# scripts_sql_curso_udemy
