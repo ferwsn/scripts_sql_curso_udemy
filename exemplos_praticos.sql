@@ -26,7 +26,7 @@
 	   AND ped.DataPedido BETWEEN '01/07/1996' AND '31/07/1996'
       GROUP BY ped.ClienteId,
 	       cli.NomeCompleto
-  ORDER BY SUM(det.preco) DESC;
+      ORDER BY SUM(det.preco) DESC;
 
 	-- LISTA DE TODOS OS CLIENTES QUE MORAM NA ALEMANHA --
 	SELECT cli.ClienteId,
